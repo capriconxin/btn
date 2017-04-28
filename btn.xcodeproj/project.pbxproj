@@ -21,6 +21,8 @@
 		6CE6B4F5187FB7360035E750 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE6B4D7187FB7360035E750 /* UIKit.framework */; };
 		6CE6B4FD187FB7370035E750 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CE6B4FB187FB7370035E750 /* InfoPlist.strings */; };
 		6CE6B4FF187FB7370035E750 /* btnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE6B4FE187FB7370035E750 /* btnTests.m */; };
+		6CE6B50A187FB7590035E750 /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE6B509187FB7590035E750 /* ColorButton.m */; };
+		6CE6B50C187FB8860035E750 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE6B50B187FB8860035E750 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		6CE6B4FA187FB7370035E750 /* btnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "btnTests-Info.plist"; sourceTree = "<group>"; };
 		6CE6B4FC187FB7370035E750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CE6B4FE187FB7370035E750 /* btnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = btnTests.m; sourceTree = "<group>"; };
+		6CE6B508187FB7590035E750 /* ColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorButton.h; sourceTree = "<group>"; };
+		6CE6B509187FB7590035E750 /* ColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorButton.m; sourceTree = "<group>"; };
+		6CE6B50B187FB8860035E750 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE6B50C187FB8860035E750 /* QuartzCore.framework in Frameworks */,
 				6CE6B4D6187FB7360035E750 /* CoreGraphics.framework in Frameworks */,
 				6CE6B4D8187FB7360035E750 /* UIKit.framework in Frameworks */,
 				6CE6B4D4187FB7360035E750 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		6CE6B4D2187FB7360035E750 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CE6B50B187FB8860035E750 /* QuartzCore.framework */,
 				6CE6B4D3187FB7360035E750 /* Foundation.framework */,
 				6CE6B4D5187FB7360035E750 /* CoreGraphics.framework */,
 				6CE6B4D7187FB7360035E750 /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				6CE6B4E5187FB7360035E750 /* Main.storyboard */,
 				6CE6B4E8187FB7360035E750 /* ViewController.h */,
 				6CE6B4E9187FB7360035E750 /* ViewController.m */,
+				6CE6B508187FB7590035E750 /* ColorButton.h */,
+				6CE6B509187FB7590035E750 /* ColorButton.m */,
 				6CE6B4EB187FB7360035E750 /* Images.xcassets */,
 				6CE6B4DA187FB7360035E750 /* Supporting Files */,
 			);
@@ -252,6 +261,7 @@
 				6CE6B4EA187FB7360035E750 /* ViewController.m in Sources */,
 				6CE6B4E4187FB7360035E750 /* AppDelegate.m in Sources */,
 				6CE6B4E0187FB7360035E750 /* main.m in Sources */,
+				6CE6B50A187FB7590035E750 /* ColorButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
